@@ -1,0 +1,23 @@
+constructor(props) --> 
+static getDerivedStateFromProps(props, state) —> 
+shouldComponentUpdate(nextProps, nextState):boolean —> 
+render —>  
+getSnapshotBeforeUpdate(prevProps, prevState) —> 
+componentDidUpdate(prevProps, prevState, snapshot) —> 
+componentWillUnmount
+
+Error://
+
+static getDerivedStateFromError(error)
+componentDidCatch(error, info) 
+
+
+Hooks://
+
+1. useState
+2. useEffect
+3. useCallback
+4. useMemo
+5. useRef
+6. useContext
+7. const [state, dispatch] = useReducer(reducer, { age: 42 }, initialState); // function reducer(state, action) {}
